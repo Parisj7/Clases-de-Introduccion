@@ -1,4 +1,4 @@
 Clase 1:
     Bienvenida general, explicación de los requisitos de aprobación 
     Programa de la materia y tiempos
-    Historia de la informática: Primeras computadoras, y primeros operadores y demas cosas
+    Historia de la informática: Primeras computadoras, y primeros operadores 
