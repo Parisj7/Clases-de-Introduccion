@@ -1,0 +1,6 @@
+Clase 2 :
+    Como usar la terminal
+    Instalar visual studio code
+    Que es un comando y como cargarlo
+    lista de comandos básicos en el Playground
+    GitBash 

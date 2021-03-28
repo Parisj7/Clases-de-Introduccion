@@ -1,0 +1,5 @@
+Clase 3 :
+    Introduccion a git 
+    Instalación de git
+    crear un repositorio local desde git, no git hub 
+    agregar archivos y comitearlo.
