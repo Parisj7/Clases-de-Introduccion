@@ -1,0 +1,29 @@
+Memorias: Principal y secundaria 
+
+Secundaria: Magneticas: Está formado por uno o más discos que giran a velocidad constante. (Grabación magnetica)
+            De estado Solido:  no posee partes móviles y que permiten la escritura y lectura en múltiples posiciones en la misma 
+                                operación mediante pulsos eléctricos.
+            Opticas: pueden ser guardados o leídos a través de un láser. Puntos de con luz o sin luz (0. 1.)
+
+Principales: *ROM: acrónimo de read only memory. Guarda las instrucciones necesarias para que la computadora pueda iniciarse.
+             *Caché: La memoria caché se sitúa entre la CPU y la memoria RAM. La CPU copia en ella los datos más relevantes que va a utilizar de la memoria RAM para acceder a ellos más rápidamente.
+             *RAM: Slots: Es el lugar por el q se conecta la RAM con la CPU, 
+                   *Single Chanel: se utiliza una única señal a un ancho de banda y frecuencia determinada.
+                   *Permite el acceso simultáneo a dos módulos de memoria. Para ello, todos los módulos de memoria deben tener la misma capacidad, velocidad, frecuencia, latencia y fabricante.
+                   *frecuencia: el número de la frecuencia indica cuántos datos puede manejar la RAM cada segundo. Si una memoria RAM viene a una frecuencia (o velocidad) de 3200 MHz, ejecutará 3.200 millones de ciclos por segundo. Cada lectura y escritura de datos se hará en un ciclo. 
+                   *Capacidad: Cantidad de datos q puede almacenar
+                   *Latencia:  determina el retraso que tarda el procesador en conseguir acceder a un dato en la memoria RAM.
+                   *Voltaje: Energia consumida por modulo de RAM
+            
+            *Registros de la cpu: Memoria de muy alta velocidad, esta dentro de los procesadores, tiene 5 registros:
+                                  *PC: indica la posición donde está el procesador en su secuencia de instrucciones. Dependiendo de los detalles de la máquina particular, contiene o la dirección de la instrucción que es ejecutada, o la dirección de la próxima instrucción a ser ejecutada. El contador de programa es incrementado automáticamente en cada ciclo de instrucción de tal manera que las instrucciones son leídas en secuencia desde la memoria.
+                                  *IR: donde se almacena la instrucción que se está ejecutando
+                                  *MAR: Contiene la dirección del dato que se quiere leer o escribir. El registro está conectado con el bus de direcciones, y su contenido se refleja en este bus.
+                                  *MDR:  El registro está conectado al bus de datos y a través de él, el CPU lee o escribe un dato a dicho bus, que a continuación llegará a la memoria o a un puerto de entrada/salida.
+                                  *Acummulator:Sin un registro como un acumulador, sería necesario escribir el resultado de cada cálculo en la memoria principal, quizás justo para ser leída inmediatamente otra vez para su uso en la siguiente operación.(Lo cual alentaria el proceso).
+
+Desfragmentaciòn y Fragmentación:La desfragmentación es el proceso mediante el cual se acomodan los archivos de un disco de tal manera que cada uno quede en un área continua y sin espacios sin usar entre ellos. Al irse escribiendo y borrando archivos continuamente en el disco duro, éstos tienden a no quedar en áreas contiguas, así, un archivo puede quedar “partido” en muchos pedazos a lo largo del disco, se dice entonces que el archivo está “fragmentado”. Al tener los archivos esparcidos por el disco, se vuelve ineficiente el acceso a ellos.
+
+Segmentación:La desfragmentación es el proceso mediante el cual se acomodan los archivos de un disco de tal manera que cada uno quede en un área continua y sin espacios sin usar entre ellos. Al irse escribiendo y borrando archivos continuamente en el disco duro, éstos tienden a no quedar en áreas contiguas, así, un archivo puede quedar “partido” en muchos pedazos a lo largo del disco, se dice entonces que el archivo está “fragmentado”. Al tener los archivos esparcidos por el disco, se vuelve ineficiente el acceso a ellos.
+
+Paginación:Separa en bloques para que trabajen por separado, se asigna a cada programa una parte distinta de la memoria, la misma al terminar el programa se vacia y permite tomar nuevos "programas" en su capacidad

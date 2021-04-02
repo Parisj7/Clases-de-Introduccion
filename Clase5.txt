@@ -1,0 +1,29 @@
+Componentes de una Pc:
+
+    Componentes Internos:
+
+        Elementos fisicos inseparables de la PC cuya falta de alguno repercute directamente en su funcionamiento, limitandolo o impidiendolo directamente.
+
+            Placa madre: Placa principal de la PC a la que los demas dispositivos se conectan de manera directa o indirecta.
+            Procesador: Interpreta y ejecuta las instrucciones a traves de operaciones arimeticas y logicas. Cerebro de la PC.
+            Memoria ROM: Almacena la informacion de manera permanente, guarda todo lo relacionado a la configuracion ppal para el arranque de la pc y su funcionamiento basico
+            Memoria RAM: Almacena informacion de manera temporal, su informacion se elimina al apagar la pc
+            Placa de video: se encarga de todo lo referente a mostrar y procesar el contenido visual de la pc
+            Placa de Sonido: Se encarga de todo lo referente a mostrar, procesar y recibir el contenido de audio de la PC
+            Dispositivo de Almacenamiento Secundario: Almacena datos de manera permanente, su informacion no es necesaria de manera instantanea.
+
+
+    Componentes Externos:
+
+        Son los perifericos que se conectan a la cpu para añadir funciones pero no son escensiales.
+
+            De entrada: Introducen datos a la computadoras
+            De salida: Extraen datos de la PC
+            Mixtos: ambos de los anteriores
+            De almacenamiento: permiten almacenamiento permanente (de manera externa)
+            De Comunicacion: conectar PCs entre si 
+
+
+Puente Norte: Es el chip que controla las funciones de acceso desde y hasta el CPU, PCI-Express, memoria RAM, vídeo integrado (dependiendo de la placa) y el puente Sur .
+
+Puente Sur: Es un chip que se encarga de coordinar los diferentes dispositivos de entrada y salida y algunas otras funcionalidades de baja velocidad. No está conectado a la CPU y se comunica con ella indirectamente a través del puente norte.
