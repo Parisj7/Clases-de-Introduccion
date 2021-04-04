@@ -1,0 +1,23 @@
+SO: Soporte lógico que controla el funcionamiento del equipo fisico. Desde el Usuario es el conjunto de programas que facilitan la interaccion y uso "usario maquina". Gestiona la RAM, ejecuta aplicaciones y las gestiona, Gestiona la CPU, controla y dirige perifericos, "administra informacion" ? 
+
+Hay sistemas operativos especializados para servidores (RedHat o MWindow server)
+
+los SO pueden ser: *Multitarea - Monotareas (Solo una tarea a la vez)
+                   *Monousuarios(windows) - Multiusuarios(Unix, linux o solaris)
+                   *Monoliticos (1 solo programa compuesto por rutinas entrelazadas(poco flexibles))-Estructura jerarquica(Subdivide en anillos o capas)-Maquina virtual (Integra diferentes sistemas operativos pareciendo q hay varias computadoras a la vez)     -   Cliente servidor (La red le permite compartir espacio de disco para economizar recursos) 
+Elegir SO segun harware y segun necesidades
+
+KERNEL: Cerebro del SO.     Encargado de interactuar entre las aplicaciones y sus necesidades con lo rescursos de la pc (memoria cpu etc) Asigna y prioriza recursos, y prioridades segun necesite el SO.
+Funciona con llamadas de peticiones (separadas en para usuarios y para "privilegiados" ya q se podria romper todo)
+
+Kernel Monolitico (linux por ejemplo) Todos los drivers, servicios y metodos almacenados en un solo espacio de memoria (Desperdicia mucha memoria por q carga todo aunq no se vaya a usar al estar todo junto
+
+Microkernel (Contrario a monolitico) Solo posee lo basico en un pequeño espacio de memoria (pero por esto mismo es unico a cada dispositivo)
+
+Kernel hibrido
+
+Nano kernel
+
+Todo en la compu pasa por el kernel y la performance del SO depende del kernel
+
+Diapo de tipos de kernel en playgoun
