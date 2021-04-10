@@ -12,7 +12,7 @@ Funciona con llamadas de peticiones (separadas en para usuarios y para "privileg
 
 Kernel Monolitico (linux por ejemplo) Todos los drivers, servicios y metodos almacenados en un solo espacio de memoria (Desperdicia mucha memoria por q carga todo aunq no se vaya a usar al estar todo junto
 
-Microkernel (Contrario a monolitico) Solo posee lo basico en un pequeño espacio de memoria (pero por esto mismo es unico a cada dispositivo)
+Microkernel (Contrario a monolitico) Solo posee lo basico en un pequeño espacio de memoria (pero por esto mismo es unico a cada dispositivo).
 
 Kernel hibrido
 
@@ -21,3 +21,8 @@ Nano kernel
 Todo en la compu pasa por el kernel y la performance del SO depende del kernel
 
 Diapo de tipos de kernel en playgoun
+
+kernel monolitico comunica directamente con hardware, todo esta dentro de el por asi decirlo y si falla cae todo
+en microkernel las aplicaciones, archivos de sist protocolos de red y puertos esta por fuera de el, si por alguna razon algun puerto o aplicaciones falla, al no estar dentro del kernel el resto no se rompe .
+
+monolitico es mucho mas rapido q el resto de los kernels

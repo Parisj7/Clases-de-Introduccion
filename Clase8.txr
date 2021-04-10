@@ -1,0 +1,34 @@
+Proceso: Cuando una instruccion se descarga de la memoria y se pone en ejecución eso se denomina proceso,
+Todos los software ejecutables se organizan en procesos y el SO ordena el orden al q se ejecutaran. Esto que hace el SO se llama cambio de contexto
+Los Procesos solo se ejecuntan 1 A LA VEZ y no se pueden almacenar en la memoria principal ya que consumen mucho espacio y se agota el almacenamiento, Por esto todos los procesos son efimeros se crean y se terminan
+
+Creacion de procesos: Manera interactiva : por ejemplo cuando el usuario exporta un proceso
+                      Proceso de llamadas al SO: Cuando un software no puede acceder a un recurso le solicita al SO
+
+Tipos de estado del proceso: Nuevo _ Listo _ Ejecución _ Bloqueado _ Salida
+
+Cuando el proceso se crea se encuentra " Nuevo" despues pasa a "listo" cuando el SO lo carga a la memoria, cuando se empieza a ejecutar pasa a "Ejecución" aqui pueden pasar varias cosas, BloqueadoCuando esta esperando que un proceso o recurso pueda ser utilizado. Cuando un proceso es ejecutado y cumple los objetivos pasa al estado de "Salida" dejando lugar para q otro proceso inicie el recorrido.
+
+IPC = Inter Process señales entre procesos
+IPC Señales: avisos q puede mandar un proceso a otro, luego el SO se encarga q el proceso q recibe la esñal tome una accion para gestionarla
+IPC Memoria compartida: Recurso compartido para q los software puedan intercambiar informacion, entonces 2 procesos pueden estar realizandose con la memoria compartida y a su vez intercambiando informacion.
+
+IPC Hijos: El proceso hijo realiza subtareas  para q el proceso padre pueda cumplir su funcion, 1 padre varios hijos pero no al reves
+
+2 Tipos de procesos se ejecutan de manera concurrente: *Independientes : total y completa autonomia, no son afectados ni afectan a otros
+                                                       *Cooperativos: pueden afectar y ser afectados(cualquier proceso q comparta 
+recursos o cualquier tipo de dato, es cooperativo), se usa xq alguno sprocesos requieren "preguntar" informacion para ejecutarse o por q si la informacion es compartida el cpu trabaja de manera mas rapida 
+
+Tecnicas de planificacion de ejecucion de procesos: 
+    *FIFO (First in first out primero en entrar primero en salir) se asigana tiempo de ejecucion al primer proceso q lo solicite
+    *SJF (Shortest Job First Mejor trabajo primero) Ordenado por menor tiempo de ejecucion 
+    *SRTF (Shortest Remaning Time First ) Si un proceso con menos tiempo que el q esta en ejecucion se pausa el primero, se ejecuta el mas corto y una vez finalizado el pequeño se reanuda hasta q vuelva a ser interrumpido o termine
+    *Round Robin (Cantidad de tiempo) Se establece una unidad de tiempo (Quantum) q se le asigna a todos los procesos por igual, si un proceso no le alcanza se ubica al final de la cola y vuelta a empezar
+    *Hibridos de los anteriores
+
+Un proceso puede divirse en secuencias de tareas (Hilos) se ùeden ejecutar en simultaneo con otros procesos  (+ eficiencia)
+Los procesos no comparten recursos entre si pero los hilos si (Cuidado con la sincronizacion porq un proceso puede bloquear un recurso y negarselo a un hilo)
+
+Una CPU monolitica trabaja con un solo hilo: menor capacidad de respuesta, comportamiento predecible, no presenta errores q los multihilos si y al ser 1 solo nucleo no tiene tantos problemas por bloqueo de procesos
+
+Las CPU de muchos nucleos : Excelente capacidad de respuesta y trabajo en paralelo, pero su sincronizacion es mas compleja y puede presentar errores por bloqueo

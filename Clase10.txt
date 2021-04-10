@@ -1,0 +1,37 @@
+Especificos: REsuelven problemas puntuales
+Generales: el resto, una pagina web apps etc
+
+alto nivel: mas alejado del binario,se abstrae de cosas internas y se desarrolla mas rapido.
+bajo nivel: muy especificas, eficiencia en el uso de recurso y mayor velocidad
+
+Lenguajes: 2 tipos: segun si permite cambiar el tipo de dato declarado y la otra segun dianmico o estatico
+                    * Tipado debil: normalmente no se indica e ltipo de variable, se puede asignar un entero a una cadena etc.
+                    es mucho mas rapido de desarrollar pero se pueden cometer mas poteciales errores.
+                    * Tipado fuerte: se obliaga a declarar el tipo de dato al declarar la variable, este mismo no puede ser cambiado,al ser mas expresivo es menos posible equivocarse, la desventaja es q hay q escribir mas codigo por tantas restricciones.
+                    *Tipado estatico: la comprobacion se realiza cuando el codigo se copila y no mientras esta ejecutando por lo q el error se detecta antes y q la ejecucion sea mas segura y eficiente
+                    * Tipado dianmico: se comprueba su tipificacion cuando se esta ejecutando, asi q es mas flexible en su desarrollo pero mas lento en ejecucion y mas propenso a fallar.
+
+                    Fuertes : python c# java scale etc      Debiles: Javasript PHp etc
+
+                    Frameworks: es uan estructura previa para usar en los proyectos que luego sera mas facil a la hora de complementarlo para llegar al objetivo final: react angular laravel 
+
+Paradigma: es una forma de pensar sobre algo preestablecido:
+    * Paradigma estructurado: Sigue una línea de pensamiento donde se suele ejecutar una instrucción a la vez y uno se rige en un acotado set de instrucciones.
+Este paradigma es muy utilizado para el desarrollo de sistemas.
+    * Paradigma Programacion Orientado a Objetos: El código puede agruparse de tal forma que llegue a representar una entidad y que interprete mensajes.  La fortaleza del paradigma de la programación orientada a objetos yace en utilizar abstracciones y crear entidades.
+    * Paradigma funcional: Se basa en funciones matematicas a fortaleza de este paradigma radica en que siempre que a la función X se le pasa el valor A, esta siempre va a devolver el valor B. 
+    * Paradigma Logico: En lugar de desarrollar pasos e instrucciones, utiliza reglas lógicas para consultar al sistema y el mismo infiere que hacer en base a las reglas lógicas establecidas.
+    * Paradigma de Programacion con Lenguaje Especifico de Dominio: Los lenguajes que encontramos acá tratan de resolver problemáticas superespecíficas.
+    * Multiparadigma: Utilizacion de multiples paradigmas al mismo tiempo.
+
+Mas paradigmas no siempre es lo mejor
+
+Un programa puede estar formado por distintos archivos en distitntos lenguajes de programación
+La compilacion toma todo el lenguaje codeado y lo convierte a codigo maquina
+Algunos codigo maquina no funcionaran en otra maquina a menos q esta sea similar en hardware y similar SO.
+
+Maquinas virtuales: cuando compilamos un codigo este pasara a codigo maquina que entienda la VM(virtual machine) pudiendo asi usarse en cualquier maquina q tenga esa vm dejando de depender de otras cosas, al pasar por la vm tmb sufre una baja en la performance
+
+Interpretes: Este Proceso hace un analisis linea por linea del codigo fuente  y traduce al mismo a un lenguaje maquina q cada una entienda esto ralentiza el proceso
+
+Algunos lenguajes son compilados, otro interpretados y otros VMados
