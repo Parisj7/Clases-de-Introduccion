@@ -1,0 +1,28 @@
+*Redes: /Por alcance: - Pan (Personal Area Network ej bluetot)
+                      - LAN (Local Area Network poco kilometros)
+                      - MAN (Metropolitan Area Network 50  a 60 km son de alta velocidad e interconectan varias redes locales en 1)
+                      - WAN (Wide Area Network 100 a 1000 km) 
+        /Por grado de autenticacion: - Red Privada
+                                     - Red de acceso Publico
+        /Por tipo de conexion: -Cableadas (par trenzado, coaxial, fibra optica)
+                               -Inalaambricas (Infrarojo, bluetot, WiFi).
+
+*Medios de Transmision: -Guiados: Están constituidos por cables que se encargan de la conducción de las señales desde un extremo a 
+                         otro. La velocidad de transmisión depende directamente de la distancia entre las terminales
+                        -No guiados: La transmisión y la recepción de información se lleva a cabo por antenas. A la hora de transmitir, la antena irradia energía electromagnética en el medio y la antena lo recepciona cuando capta las ondas electromagnéticas del medio que la rodea.
+
+*Internet: Internet es una red global donde es posible acceder a casi cualquier tipo de información, mediante la comunicación con 
+           cualquier persona o dispositivo en el mundo. Posee las mismas características que las otras redes de comunicaciones de
+           datos 
+           Caracteristicas: /Velocidad: Es el tiempo en el que se transmiten los datos, la rapidez de subida y bajada 
+                            depende del medio y estándares que utilicemos para comunicarnos, se mide generalmente en megabits por segundo
+                            /Seguridad: Su objetivo está en evitar que intrusos accedan a la información transmitida.
+                            /Confiabilidad: Mide la relación de fallos en la transmisión: menos fallos, más confiable
+                            /Escalabilidad: Evita que el servicio no decaiga si el número de usuarios aumenta.
+                            /Disponibilidad: Es la capacidad de la red para estar siempre funcionando.
+           Bajada de datos: Es la capacidad que tiene Internet para navegar entre la red, la velocidad con la cual podemos descargar elementos.
+           Subida de datos: Es la capacidad de cargar datos en la Web, por ejemplo, podríamos verlo en el 
+           tiempo que demora en subir un video a YouTube.
+           Paquetes: Son los bloques en lo que se divide la información al viajar por la red. El ping es el tiempo exacto que demora un paquete de datos en ser enviado de un dispositivo a otro, se mide en milisegundos. 
+           Siempre que nos conectamos a una red, el router nos identifica para reconocernos y interactuar con los demás dispositivos conectados. La dirección IP o simplemente IP es un número único, el cual reconoce a cada dispositivo conectado en una red. De la misma forma que cada dispositivo conectado a la red posee una IP. El router, dispositivo que
+           administra la red, también posee una conocida como puerta de enlace. La puerta de enlace es utilizada por los  dispositivos de una red cuando se comunican con un dispositivo de una red diferente a la que se encuentran, esto sucede por ejemplo cuando navegamos en Internet. La asignación IP de nuestro dispositivo puede ser de dos maneras: dinámica, si permitimos que el router designe de forma automática nuestra IP, o estática cuando nosotros desde el sistema operativo la definimos.

@@ -1,0 +1,38 @@
+*Escritorios remotos: son programas q nos permiten acceder e interactuar con una computadora a distancia, pc remota = Host, Pc
+                      pc q accede= cliente, 1 host puede tener varios clientes a la vez mientras pueda, ahorra reursos,si no 
+                      tiene seguridad se puede "hackiar " para robar credenciales y usar el host, el rendimiento ademas depende 
+                      del internet
+
+*Maquinas virtuales: Software capaz de tener en un su interior otro sistema operativo haciendole creer q es una pc real
+                     lugar donde esa pc virtual es creada se llama hipervisor, este es un sofware q se instala sobre el harware
+                     y su funcion es asignar recursos (memoria cpu etc). 2 tipos: 
+                        /Tipo 1: corre sobre la parte fisica es mas rapido y seguro y se puede crear mas de una maquina
+                        /Tipo 2: corre sobre el SO y es mas lento q el Tipo 1, tmb se puede crear mas de una 
+                    Maquinas virtuales tmb pueden ser de procesos, estas no emulan todo un SO si no solo un proceso una app x ej.
+                    una Maquina virtual permite ejecutar programas antiguos, o de otros sistemas operativos, o un entorno seguro
+                    para analizar virus o malwares, ademas mejora el uso de harware en servidores. sus desventajas es q son mas
+                    lentas ya q acceden de manera indirecta, y si el HW no es lo suficientemente bueno el rendimiento se cae
+
+*Contenedores: Un contenedor es un concepto de empaquetación de software q incluye la aplicación y todas sus dependencias
+               de ejecución. Facil de configurar y rapido. Al proporcionar una huella más pequeña del sistema operativo a través de
+               contenedores, un contenedor tiene la capacidad de reducir el tamaño del desarrollo. Aumenta la producctividad y 
+               ayuda a ejecutar la aplicación en un entorno aislado y reduce los recursos. Cada tarea representa una instancia de
+               un contenedor q debe estar en ejecución y q puede ser programada sobre los nodos (cada instancia que lo ejecuta).
+               Los contenedores se utilizan para ejecutar aplicaciones en un entorno aislado, esta característica permite q
+               aquí cada contenedor sea independiente de otro y permite ejecutar cualquier tipo de aplicación requerida.
+               Los contenedores proporcionan configuraciones por defecto que ofrecen una mayor protección para las aplicaciones 
+               q se ejecutan sobre ellos y a través de orquestadores. La plataforma establece valores predeterminados seguros,
+               al tiempo que deja los controles en manos del administrador para cambiar las configuraciones y las políticas según
+               sea necesario.
+
+*Orqustadores: Los orquestadores son sistemas de automatización del despliegue, ajuste de escala y manejo de aplicaciones en
+               contenedores. Un orquestador de contenedores se ocupa de cuestiones como:
+                    ● Configuración automática.
+                    ● Despliegue y "levantado" automático de servicios basados en contenedores.
+                    ● Balanceado de carga.
+                    ● Autoescalado y autoreinicio de contenedores.
+                    ● Control de la "salud" de cada contenedor.
+                    ● Intercambio de datos y networking.
+                    ● Mantenimiento de parámetros "secretos" y configuraciones.
+              
+              Ejemplos de orquestadores: kubernetes (google), Docker Swarm, Mesosphere DC/OS, Hashicorp Nomad, Amazon ECS, Amazon EKS, Azure Kubernetes Service (AKS), Google Kubernetes Engine (GKE) 
