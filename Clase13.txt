@@ -1,0 +1,43 @@
+Protocolos de internet: 
+
+TCP: Transmission Control Protocol: garantiza el establecimiento de la conexion, la transferencia de datos y la finalizacion de la conexion, 
+
+
+IP: Internet Protocol: permite enviar los datos en paquetes direccionales a las distintas computadoras de la red el protocolo encargado de asignar estas direcciones IP es DHCP (DHCP: Dinamic Host Configuration Protocol:)
+
+dentro del modelo TCP/IP tambien se encuentra el protocolo HTTP (HyperText Transfer Protocol) Protocolo cliente servidor q gestiona las transacciones web entre estos dos, nos permite navegar en la web entre enlaces y paginas WWW
+
+Una direccion WWW tecnicamente llamada URI, Uniform Resource Identificator, esta se puede identifar de dos maneras, por URL o por URN, la URL indica donde esta el recurso q queremos obtener y siempre comienza con un protocolo (HTTP) , la URN es el nombre exacto del recurso uniforme, nombre del dominio y a veces el nombre del recurso, (Lo q ingresa el usuario), por detras se direcciona a direcciones IP por el protoclo DNS (Domain Name System) el cual permite al servidor encargarse de la transformacion de una direccion URN a direccion IP
+
+FTP Protocolo de Transferencias de archivos (para enviar archivos entre dispositivos de la red )
+SSH Secure Shell: Protocolo para acceder a equipos remotos 
+SMTP Protocolo para la transferencia simple de correo para el envio de correo electronicos
+POP3 e IMAP, para la recepcion de los correos de una casilla 
+etc...
+
+El protocolo de Internet, conocido por sus siglas en inglés IP —Internet Protocol—, es el protocolo principal de la familia de protocolos de Internet y su importancia es fundamental para el intercambio de mensajes en redes informáticas. Es decir, son normas que nos van a regir el intercambio de información a través de una red de computadoras o dispositivos.
+
+El protocolo IP junto al protocolo de control de transmisiones —TCP o Transmission Control Protocol— sientan las bases de Internet. Para que el remitente pueda enviar un paquete de datos al destinatario, el protocolo IP define una estructura de paquetes que agrupa los datos que se tienen que enviar. Así, el protocolo IP cómo se describe la información sobre el origen y el destino de los datos y los separa de los datos útiles en la cabecera de cada paquete de información enviado.
+
+El protocolo IP identifica cada dispositivo que se encuentre conectado a la red mediante su correspondiente dirección IP. La dirección IP se utiliza para identificar de manera unívoca tanto al dispositivo como a la red a la que pertenece, dividiéndose así en dos partes:
+
+Una dirección que identifica la red.
+Una dirección que identifica al dispositivo dentro de esa red.
+No puede haber en una misma red y, por lo tanto, tampoco en Internet, dos dispositivos conectados con una misma dirección IP. La dirección IP es única y exclusiva para cada equipo conectado a Internet.
+
+Pero, normalmente, no solemos memorizar las direcciones IP, sería casi imposible memorizar las IP de las webs a las que queremos acceder. Con este objetivo, se crearon los nombres de dominio. Entonces cada vez que queremos acceder a una página web utilizamos su nombre de dominio, por ejemplo, google.com en vez de utilizar su dirección de IP 78.45.789.03
+
+Quien se encarga de estas traducciones entre nombres de dominio y direcciones IP será el protocolo de sistema de nombres de dominio —Domain Name System o DNS— que tenga configurado nuestro dispositivo.
+
+IP: Una dirección IP es un número único que representa la ubicación de un dispositivo dentro de Internet o de una red.
+Conjunto de 4 octetos (max 255) cada direccion ip esta compuesta por un numero de red y otro de host Cada número del conjunto puede oscilar entre 0 y 255. Por lo tanto, el rango de direccionamiento IP completo va desde 0.0.0.0 a 255.255.255.255 
+la parte de numero de red varia en base a la clase : 
+    *Clase A: se distingue xq su num solo tiene 1 octeto y el resto corresponde a numero de host, osea q solo podra tener hasta 16777214 Hosts (muy pocas)
+    *Clase B: 2 Octetos para host 65534 host
+    *Clase C: 1 Octeto para host solo 254 host (muchas)
+
+estas clases quedaron obsoletas se paso a IPV4 E IPV6 (nuevo)
+Las direcciones IPv4 se expresan como un conjunto de cuatro números para q IPV4 no se sature se armo un sistema con IPs publicas (unicas) y privadas q pueden repetirse
+
+Una subred es una combinación de números que sirve para delimitar el ámbito de una red de computadoras. El protocolo TCP/IP usa la máscara de subred para determinar si un host está en la subred local o en una red remota Su función es indicar a los dispositivos 
+que parte de la dirección IP es el número de la red, incluyendo la subred y qué parte es la correspondiente al host  

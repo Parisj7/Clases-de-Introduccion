@@ -1,0 +1,13 @@
+Redes Internas: 
+
+Routing: Enrutamiento : Mover datos de una red a otra. El Routing l olleva a cabo el router. este permite intercomunicar PC estableciendo q rutas seguiran mis datos, esto lo hace enviando la informacion a traves de una cadena de cientos de routers
+
+Cuando una quiere ingresar a una pagina estable una solicitud de visualizacion , esa solicitud llega al router y de ahi busca cual es la direccion de destino reconociendo la direccion IP a traves de la direccion web y establece cual es la mejor ruta q tiene para llegar a dicho destino, en esa ruta hay mas routers q iran pasando la peticion repetidas veces, una vez q llega a destino realiza el proceso inverso, Conectar dos PC siempre es a traves de direcciones IP, para diferenciar varias conexiones entre mismas ips se usan los puertos, cada dispositivo tiene 65536 puertos, cada uno destinado a enviar o recibir sierto tipo de info, los mas conocidos van del 0 al 1023 y son reservados al SO y los protocolos de red mas importantes
+
+Puerto 21: FTP, 25 SMTP, 80: HTTP, del 1024 al 49151: para aplicaciones y juegos, del 49152 en adelante para puertos dinamicos o privados
+
+Redes Externas: 
+
+VPN: Una red privada virtual es una tecnología que protege nuestra privacidad cuando utilizamos Internet dirigiendo nuestra conexión a través de un servidor que oculta la dirección IP y encripta la comunicación online. Cuando se utiliza una VPN, la información enviada desde la computadora pasa a través de uno de los servidores del proveedor de VPN antes de llegar a su destino. 
+
+Tor es similar a una VPN. Los mensajes hacia y desde su computadora pasan a través de la red Tor en lugar de conectarse directamente a los recursos de Internet. Pero donde las VPN brindan privacidad, Tor brinda anonimato.
