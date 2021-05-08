@@ -1,0 +1,61 @@
+Malware, malicius software Tipos:
+* Virus: Se copia en varios lugares del sistema, asi si se borra 1, sigue estando en otras partes de la memoria, su objetivo es destruir o inhabilitar archivos o programas, estos no pueden por si mismos infectar a otros dispositivos , por eso se dice q son de poca infeccion por q se replican dentro del mismo dispositivo
+* Gusano: Se copia a si mismo en el sistema y utiliza la red  para copiarse en otra maquinas a travez de las bulnerabilidades de la red, Mayor capacidad de infeccion, su objetivo es replicarse a si mismo hasta saturar el sistema.
+* Troyanos: Una estructura para transportar cosas ocultas (malwares) tambien pueden crear backdoors para q se pueda utilizar el equipo de manera remota, para usarlo como servidor proxy para ocultar ataques o para generar spam en el equipo. 
+*Adwares: Su objetivo es bombardear al equipo con publicidad, no son dañinos de por si 
+*Spywares: softwares espias, no daña el dispositivo pero roba toda la informacion 
+*Rootkits: Conjunto de software, los demas malwares atacan al SO, si este se re instala desaparece el malware, en cambio los Rootkits van directamente al firmware del sistema y tienen acceso al dispositivo en modo kernel, esto le permite alterar los procesos del SO, los archivos y las cuentas de usuario. ademas se esconden de los antivirus.
+Botbnets: "zombies" pc q son manejadas todas al mismo tiempo 
+Ransomware: Software de secuestro, secuestran la info y piden dinero a cambio 
+
+Una falla, también conocida como bug, es un error en un programa o sistema operativo que desencadena un resultado indeseado.
+*Heisenbug: Basados en el principio de incertidumbre de Heisenberg se denominan a aquellos bugs que alteran o desaparecen su comportamiento al tratar de depurarlos.
+*Bohrbug: Nombrados así por el modelo atómico de Bohr, es una clasificación de un error de software inusual que siempre produce una falla al reiniciar la operación que causó la falla
+* Mandelbug: Llamado así por el matemático Benoit Mandelbrot, un mandelbug es un fallo con causas tan complejas que su comportamiento es totalmente caótico.
+*Schroedinbugs: Son errores que no aparecen hasta que alguien lee el código y descubre que, en determinadas circunstancias, el programa podría fallar. A partir de ese momento, el “Schroedinbug” comienza aparecer una y otra vez.
+
+Una vulnerabilidad es una debilidad o fallo de un sistema informático que puede poner en riesgo la integridad, confidencialidad o disponibilidad de la información. 
+
+Pasos para detectar una vulnerabilidad: 
+● Evaluar cómo está constituida la red e infraestructura de la empresa.
+● Delimitar quién puede y debe acceder a la información confidencial.
+● Probar que las copias de seguridad realizadas funcionen.
+● Identificar las partes más sensibles y esenciales del sistema.
+● Realizar auditorias del estado de la seguridad informática
+
+
+Principios de la seguridad de la información: 
+
+La información es recurso clave para tomar decisiones, dimensionar cosas, y disminuir riesgos. La misma cuenta con tres dimensiones conocidas como: integridad, disponibilidad y confidencialidad, también llamadas CIA por sus siglas en inglés. Los 
+atacantes de un sistema van a tratar de vulnerar algunas de esas dimensiones.
+
+Integridad: Consiste en que la información se encuentre completa, entera y que los datos que están dentro del sistema sean los que 
+deberían ser. Un ejemplo de esta dimensión sería el ataque a una base de datos y la modificación de los datos que seguir viendo la información, pero la misma es errónea debido a que la original fue alterada.
+
+Disponibilidad: Significa que la información una persona/usuario debe poder tener acceso a la información en el momento que lo necesita, es decir, en tiempo y forma. Un típico ataque a este tipo de dimensión es el ataque de denegación de servicio.
+
+Confidencialidad: Refiere a que la información tiene que estar disponible únicamente para las personas que tienen acceso a esta 
+información y bloqueada para el acceso a terceros. Por ejemplo, los datos personales e historiales médicos.
+
+La protección de la información se basa en garantizar el completo y total funcionamiento de las 3 dimensiones, medidas preventivas y reactivas.
+
+Medidas preventivas se refiere a todas las acciones que pueden tomarse para evitar problemas no deseados. Por otro lado, las medidas reactivas son aquellas donde ya se ocasionó un problema de seguridad y hay que solventarlo.
+
+Protección de la confidencialidad: 
+* Encriptación:  Significa cambiar el formato de los datos con la razón de que si estos son interceptados solo las personas autorizadas sepan cómo leerlos (medida preventiva).
+* Controles de acceso: Asegurar que solo las personas autorizadas puedan acceder a la información (medida preventiva).
+* Borrado remoto: Se refiere al esfuerzo de mantener los datos siempre privados, en el caso de que se perdiera el acceso, la capacidad de bloquear el dispositivo o borrar la información (medida reactiva).
+* Capacitación al personal: Existe un concepto llamado ingeniería social, el cual es la denominación que se le da 
+a cómo los usuarios son engañados para otorgar sus accesos, la capacitación en estos problemas es una acción preventiva para evitarlos
+
+Protección de la integridad: 
+* Auditorias: Se utilizan para comprobar que la información coincide con lo que debería ser correcto (medida reactiva).
+* El control de versiones: Si ha ocurrido un inconveniente con la información, diversas herramientas de control de versiones ayudan a “volver a un estado anterior” (medida reactiva).
+* Firmas digitales: Esta medida permite asegurar la autenticidad del documento (medida preventiva).
+* Detección de intrusos: Diseñados para detectar problemas cuando un acceso no autorizado se ha cometido (medida reactiva)
+
+Protección de la disponibilidad: 
+* Tolerancia a fallos: La capacidad de los sistemas o servidores a que si algún tipo de fallo sucede, la información pueda ser utilizada (preventiva o reactiva dependiendo la situación).
+* Redundancia:  De esta forma la información y las validaciones de acceso se repitan tanto que la información está segura de no perderse en su totalidad (preventiva).
+* Parches de seguridad: Cuando se detecta una falla, debe solucionarse el problema para que no vuelva a ocurrir, igualmente si la falla fue por un software, actualizarlo con la vulnerabilidad resuelta.
+
