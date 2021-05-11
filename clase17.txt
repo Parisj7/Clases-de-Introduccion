@@ -1,0 +1,82 @@
+¿Qué es la seguridad activa?
+Los elementos denominados activos contienen información, pueden tener muchas formas: servidores, dispositivos móviles, bases de datos, entre otros. Esos activos contienen información que alguien quiere vulnerar, obtener, destruir, etcétera. Como su intención es acceder a una información, lo va a hacer a través de una vulnerabilidad. La amenaza aprovecha esa vulnerabilidad para ingresar de forma indebida a la información y hacer lo que quería hacer. La seguridad activa protege y evita daños en los sistemas informáticos.
+
+
+Buenas prácticas:
+
+Uso y empleo adecuado de contraseñas. 
+Uso de software de seguridad informática,
+Encriptar los datos importantes
+
+Qué es la seguridad pasiva?
+Es un conjunto de acciones o técnicas de seguridad que entran en acción para minimizar los daños a los sistemas informáticos.Estas acciones se activan cuando se ha introducido un malware o cualquier otra amenaza en los sistemas.
+
+
+Buenas prácticas:
+
+La realización de copias de seguridad de los datos en más de un dispositivo y/o en distintas ubicaciones físicas.
+Escanear y limpiar continuamente los equipos para controlar y evitar ataques de malware.
+Crear particiones en el disco duro para almacenar archivos y backups/copia de seguridad en una unidad distinta a donde tenemos nuestro sistema operativo.
+Frente a un ataque, desconectar el equipo de la red hasta que se pueda solucionar.
+Es importante que cuando haya una infección por un virus, comprobar que el antivirus funcione correctamente.
+
+Clases de Medidas de seguridad:
+*Proactivas: 
+            * Directivas: Nos dicen qué podemos o no hacer. Intentan que las actividades de los sistemas se realicen de una manera específica con el fin de que se produzcan ciertos resultados esperados
+            * Disuasivas: Pueden desviar la intención del atacante potencial a un sistema o el uso indebido por parte del personal. Se diferencian con las directivas en que estas no nos restringen directamente, sino que nos hacen una advertencia, la cual se puede o no tener en cuenta a la hora de ejecutar la acción indebida.
+            * Preventivas: Buscan que no se produzca un accidente o cualquier tipo de acción indebida en los sistemas. La diferencia con las disuasivas es que estas buscan informar y prevenir una acción indebida.
+
+* Reactivas:
+            * Detectivas: Se basan en la búsqueda de potenciales ataques o peligros a los que puede estar expuesto un sistema informático.
+            * Correctivas: Una vez se ha encontrado el riesgo o ha sucedido un incidente que ha puesto en peligro a los datos o información, se activan estas medidas de seguridad. Su objetivo es solucionar el sistema luego que ha sucedido el desvío.
+
+Objetivos de la auditoría de sistemas de información:
+* EFICIENCIA: Se debe trabajar de manera tal que la información recabada sea útil para la toma de decisiones.
+* NORMATIVA: Se deben cumplir las normativas determinadas para certificar que la empresa trabaja bajo las normas estándares.
+* GESTIÓN DE RECURSOS: Recursos utilizados de manera correcta.
+
+Herramientas para auditar: 
+
+* Entrevistas: A través de entrevistas al personal determinar si son conscientes y utilizan las normas establecidas por la empresa en su día a día.
+* Encuestas: Sirven para tener un panorama general del estado de la empresa.
+* Análisis de los procesos: Las empresas deberían tener documentado sus distintos procesos para que el auditor revise que cumplan los estándares pautados.
+* Analisis del codigo de software: Mediante distintas pruebas o análisis de la sintaxis los auditores aseguran que las pautas para el desarrollo de software sean cumplidas. 
+
+Seguridad fisica: 
+* Dispositivos físicos de protección: Pararrayos, extintores, detectores de humo, alarma contra intrusos, entre otros.
+* UPS (Uninterruptable Power Supply): Es un dispositivo electrónico que almacena energía por medio de una batería interna. Esto le permite a los dispositivos que están conectados al mismo, frente a un apagón eléctrico, seguir almacenando la información por un determinado tiempo.
+* Respaldo de datos: Es importante saber que los datos son los activos más importantes dentro de una organización, por tal motivo, es de suma importancia el manejo y cuidado de los mismos ya que pueden estar expuestos a muchos factores como hurto, alteración, virus, entre otros. Por tal motivo, se deben realizar copias de seguridad o backups de los datos completos e incrementales. El backup es un proceso por el cual se realiza la copia de los datos originales con el fin de prevenir cualquier tipo de pérdida de los mismos.
+* Sistemas redundantes: Son la copia de datos de mayor importancia. Cuando uno de los sistemas falla, no se pierde la información, sino que se recupera del otro lugar donde se encuentra.
+
+Seguridad lógica:
+* Control de acceso: Impide el acceso a personas no autorizadas mediante el uso de usuarios y contraseñas
+* Cifrado de datos: El cifrado es la acción de transformar un mensaje de tal forma que no pueda ser comprendido por otra persona distina al receptor. Por lo tanto, el cifrado de datos consiste en la aplicacion de un algoritmo de cifrado acompañado de una clave, con el objetivo de transformar el mensaje, para q únicamente pueda ser leído por el destinatario
+* Antivirus: Permite escanear, detectar y eliminar malware en un sistema informatico
+* Firewalls: Impide q malwares o hackers puedan ingresar a nuestra computadora a traves de internet o de una red
+
+DoS: 
+En un DoS lo que sucede es que se produce una gran cantidad de peticiones desde solamente una máquina o una dirección IP al servicio, produciendo una saturación de los puertos, hasta que llega un momento en que el servidor no tiene capacidad de respuesta a todos los servicios solicitados y comienza a rechazar peticiones, es aquí donde se produce la denegación del servicio. Por otro lado, un DoS no solo puede ocurrir desde la red. El incremento del uso de recursos de manera sintética o forzada (como CPU o memoria) también puede producir un DoS. Es decir, no solo puede ocurrir saturando la red, sino que también se puede saturar otros recursos y producir el mismo efecto. Y esto podría ocurrir desde la red o internamente en el servidor con algún agente instalado programado para tal fin
+
+Ataque de denegación de servicio distribuido (DDoS): 
+En un DDoS lo que sucede es que se produce una gran cantidad de peticiones al servicio, pero en este tipo se lleva a cabo desde varios puntos o direcciones IPs de conexión produciendo la saturación del puerto de destino, hasta que llega un momento en que el servidor no tiene capacidad de respuesta a todos los servicios solicitados y comienza a rechazar peticiones, es aquí donde se produce el ataque de denegación de servicio distribuido.
+
+* bot: es una aplicación de software que se encarga de realizar las tareas que tienen la característica de ser simples y repetitivas. Las mismas se realizarán a través de Internet. Estos bots trabajan mucho más rápido de lo que trabajaría una persona.
+* botnet: es un conjunto de dispositivos que están conectados a Internet y que cuya seguridad ha sido comprometida por un atacante para instalar un bot programado para efectuar un ataque de DoS. Los dispositivos comprometidos quedan a la espera de que el atacante envíe una señal para comenzar el ataque.
+
+Una computadora zombie es una computadora que ha sido infectada por un virus, troyano o un gusano, y se utiliza de forma remota por un tercero, para realizar ataques maliciosos —entre ellos está el ataque de denegación de servicio distribuido DDoS.
+
+En DoS las peticiones se realizan desde solo una máquina o una dirección IP, como también puede ser desde algún agente instalado 
+programado para tal fin. En DDoS las peticiones se realizan desde varios puntos o direcciones IPs.
+
+Métodos de ataque: 
+Consumen el ancho de banda. Alteran las tablas de enrutamiento —la ruta por donde debe ir la información—. Por tal motivo, la información que se envía no llega a destino. Fallas en los componentes físicos de una red. 
+
+
+Tipos de hacker:
+* Sombrero blanco (white hats): utilizan los conocimientos en informática y seguridad informática con el fin de defender los sistemas de información.
+* Sombrero gris (gray hats): tienen conocimientos tanto de la parte defensiva como ofensiva y pueden trabajar en cualquiera de los ámbitos.
+* Sombrero negro (black hats): tienen conocimientos informáticos y recurren a hacer actividades maliciosas o ilegales. También conocidos como crackers.
+
+Las diferencias entre hacker y cracker: 
+El hacker es un experto en varias ramas técnicas relacionadas con las tecnología de información de las comunicaciones, como son: programación, redes, sistemas operativos e ingeniería de software.
+El cracker es también un experto, pero además es quien viola la seguridad de un sistema informático con fines ilícitos o con un objetivo deshonesto y no ético.
