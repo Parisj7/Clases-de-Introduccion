@@ -1,0 +1,25 @@
+Clase 18: Ética informática.
+Principios de la ética.
+Sociedad: Los profesionales actuarán en forma congruente con el Interés social.
+Cliente y empresario: Los profesionales actuarán de manera que se concilien los mejores intereses de sus clientes y empresarios congruentemente con el interés social.
+Producto: Los profesionales asegurarán que sus productos y modificaciones correspondientes cumplen los estándares profesionales más altos posibles.
+Juicio: Los profesionales mantendrán integridad e independencia en su juicio profesional.
+Administración: Los profesionales, gerentes y líderes promoverán y se suscribirán a un enfoque ético en la administración del desarrollo y mantenimiento del software.
+Profesión: Los profesionales incrementarán la integridad y reputación de la profesión congruentemente con el interés social.
+Colegas: Los profesionales apoyarán y serán justos con sus colegas.
+Personal: Los profesionales participarán toda su vida en el aprendizaje relacionado con la práctica de su profesión y promoverán un enfoque ético en la práctica de la profesión.
+
+Software libre: No gratuito, se puede tomar el código fuente y utilizar para otro programa
+Software propietario: Es privado, no existe forma libre del código fuente. No se permite leer, modificar o adaptar por parte de terceros. Solo puede acceder su desarrollador.
+Puede ser gratuito aunque no sea libre. Puede ser gratuito e igual existir compras en el programa o pagar con datos.
+Características:
+Buena atención al cliente, soporte especializado.
+Especialización y focalización. Valor añadido y utilidad como elemento diferenciador.
+Control a favor del autor y el uso malintencionado. Autoría y crédito a favor del autor. 
+Delitos en informática.
+Pornografía infantil.
+Violación de secretos y privacidad.
+Acceso abusivo a sistema informático.
+Acceso indebido al banco de datos. 
+Fraude informático.
+Daño informático.
